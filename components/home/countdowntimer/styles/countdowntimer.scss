@@ -1,0 +1,79 @@
+.timer{
+    background-color: #BDE6FC;
+    width: 100%;
+    height: 750px;
+    margin-top: 100px;
+    color: aliceblue;
+    text-align: center;
+   margin-bottom: 100px;
+   display: flex;
+   .img1{
+    margin-top: 234px;
+   }
+   .midbody{
+    display: block;
+    text-align: center;
+    button{
+        background-color: #9363B5;
+        color: white;
+        padding: 15px 50px;
+        border-radius: 35px;
+        outline: none;
+        border: none;
+        font-size: 35px;
+        font-weight: 500;
+        margin: {
+            right: 400px;
+            
+        }
+       
+    }
+   }
+
+    
+
+  .countdown{
+    display: flex;
+    .dhms{
+        display: flex;
+        margin: {
+            left: 80px;
+            top: 50px;
+        }
+        h3{
+            font-size: 50px;
+            font-weight: 600;
+            color: black;
+            padding-right: 40px;
+        }
+    }
+    h2{
+        color: black;
+        margin: 20px;
+        font-size: 90px;
+    }
+    h4{
+        color: black;
+        padding-top: 100px;
+    }
+    h1{
+        color: #9363B5;
+        font-size: 100px;
+        font-weight: 800;
+    }
+    span{
+        color:#9363B5 ;
+        font-size: 45px;
+        font-weight: 600;
+        margin-right: 40px;
+    }
+    
+    
+  }
+
+
+   
+   
+
+   
+}

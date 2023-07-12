@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.icons {
+  color: black;
+  font-size: 25px;
+  font-weight: 10 px;
+  margin-left: 160px;
+  margin-top: 50px;
+  display: flex;
+}
+.icons #i1 {
+  margin-right: 15px;
+}
+.icons #i2 {
+  margin-right: 15px;
+}
+.icons #i3 {
+  margin-right: 15px;
+}
+.icons #i4 {
+  margin-right: 15px;
+}
+
+#menu {
+  margin-top: 50px;
+  margin-left: 300px;
+  font-size: 16px;
+  font-weight: 800;
+  font-style: italic;
+}
+#menu .links:hover {
+  color: aqua;
+}
+#menu:active {
+  color: aqua;
+}
+#menu img {
+  margin-left: 50px;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=navbar.css.map */

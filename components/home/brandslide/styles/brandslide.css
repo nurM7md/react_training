@@ -1,0 +1,56 @@
+.brands h1 {
+  margin-left: 47%;
+  position: relative;
+}
+.brands h1::before {
+  content: "";
+  width: 150px;
+  height: 3px;
+  background-color: rgb(83, 182, 182);
+  position: absolute;
+  left: 0px;
+  top: 55px;
+  border-radius: 5px;
+}
+
+.mySwiper3 {
+  width: 100%;
+  height: 300px;
+  top: 50px;
+}
+.mySwiper3 .swiper-button-prev {
+  top: 90px;
+  left: 100px;
+}
+.mySwiper3 .swiper-button-next {
+  top: 90px;
+  left: 1350px;
+}
+.mySwiper3 img {
+  padding-right: 30px;
+}
+
+.afterfooter {
+  display: flex;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.afterfooter h2 {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 200;
+}
+.afterfooter p {
+  font-size: 10px;
+  color: gray;
+}
+.afterfooter img {
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=brandslide.css.map */

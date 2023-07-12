@@ -1,0 +1,47 @@
+$maincolor: aqua;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.icons{
+   margin: {
+      left:160px;
+      top:50px
+   }
+    color: black;
+    font-size: 25px;
+    font-weight:10 px;
+    display:flex;
+      #i1{
+       margin-right: 10px;
+    }
+    #i2{
+        margin-right: 10px;
+     }
+     #i3{
+        margin-right: 10px;
+     }
+     #i4{
+        margin-right: 10px;
+     }
+}
+#menu{
+   margin: {
+      top:50px;
+      left:300px
+   }
+   font-size: 16px;
+   font-weight: 800;
+   font-style:italic;
+   .links:hover{
+    color: $maincolor;
+   }
+   &:active{
+    color: $maincolor;
+   }
+   img{
+    margin-left: 50px;
+    font-weight: 500;
+   }
+}

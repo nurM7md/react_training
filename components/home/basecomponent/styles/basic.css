@@ -1,0 +1,19 @@
+.basesec h1 {
+  margin-top: 100px;
+  margin-left: 47%;
+  position: relative;
+}
+.basesec h1::before {
+  content: "";
+  width: 253px;
+  height: 3px;
+  background-color: rgb(83, 182, 182);
+  position: absolute;
+  left: 5px;
+  top: 63px;
+  border-radius: 5px;
+}
+
+
+
+/*# sourceMappingURL=basic.css.map */

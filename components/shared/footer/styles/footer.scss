@@ -1,0 +1,59 @@
+.footer{
+    background-color: #54A4AF;
+    width: 100%;
+    height: 410px;
+    .links{
+        
+        text-align: center;
+    }
+    .link{
+        color: aliceblue;
+        margin: {
+            top: 50px;
+            right: 50px;
+        }
+        font-size: 30px;
+        font-weight: 400;
+        }
+
+        .icons{
+            text-align: center;
+            
+            .whats{
+                color: green;
+                font-size: 90px;
+                margin-left: 350px;
+
+
+            }
+            .youtube{
+                font-size: 90px;
+                color: red;
+                margin-left: 50px;
+            }
+            .face{
+                font-size: 90px;
+                color: rgb(65, 65, 171);
+                margin-left: 50px;
+
+            }
+            .twitter{
+                font-size: 90px;
+                color: #55ACEE;
+                margin-left: 50px;
+
+            }
+            
+        }
+        
+        h2{
+            color: aliceblue;
+            text-align: center;
+            margin-top: 50px;
+        }
+        h4{
+            color: aliceblue;
+            text-align: center;
+            margin-top: 50px;
+        }
+}

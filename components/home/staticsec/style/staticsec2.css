@@ -1,0 +1,58 @@
+.cards {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 120px;
+  margin-bottom: 100px;
+}
+.cards .title {
+  margin: auto;
+  margin-left: 60px;
+  text-align: right;
+}
+.cards .title2 {
+  margin: auto;
+  margin-left: 100px;
+  text-align: right;
+}
+.cards .title2 h5 {
+  margin-left: 100px;
+}
+.cards .card1 {
+  width: 700px;
+  height: 328px;
+  background-color: #FFDBDF;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+}
+.cards .card1 .link::before {
+  content: "";
+  width: 100px;
+  height: 3px;
+  background-color: rgb(83, 182, 182);
+  position: absolute;
+  left: 140px;
+  top: 220px;
+  border-radius: 5px;
+}
+.cards .card2 {
+  width: 600px;
+  height: 320px;
+  background-color: #D6F7FE;
+  border-radius: 10px;
+  margin-left: 50px;
+  display: flex;
+  position: relative;
+}
+.cards .card2 .link2::before {
+  content: "";
+  width: 100px;
+  height: 3px;
+  background-color: rgb(83, 182, 182);
+  position: absolute;
+  left: 200px;
+  top: 220px;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=staticsec2.css.map */
