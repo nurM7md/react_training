@@ -1,0 +1,203 @@
+.proSwiper_filter{
+   
+}
+.list_filter{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column;
+}
+.list_filter .title{
+    background-color: var(--color-primary);
+    color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    height: 70px;
+padding: 2px;
+}
+.list_filter .title h3{
+    font-size: 22px;
+    padding: 2px;
+    margin-top: 20px;
+    transform: translate(-50 , -50%);
+}
+.list_filter span{
+    cursor: pointer;
+}
+
+.product-card_f img{
+    width: 250px;
+    max-width: 100%;
+ 
+}
+.product-card_f  h3{
+    font-size: 15.41px;
+    text-align: center;
+font-weight: 500;
+}
+.product-card_f  .sizes,
+.product-card_f  .star_rating{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin:10px 10px 5px 0px;
+    
+}
+.product-card_f .rc-rate{
+    font-size: 12px;
+}
+.product-card_f  .sizes{
+    margin-right: 30px;
+}
+.product-card_f  .sizes button{
+    padding: 2px 5px;
+        font-size: 11px;
+    border: 1.324px solid rgba(0, 0, 0, 0.30);
+    background: #FFF;
+}
+.product-card_f  .price{
+    color: #7FD3DF;
+    font-size: 18.41px;
+font-style: normal;
+font-weight: 600;
+margin-top: 10px;
+margin-left: 50px;
+}
+
+.proSwiper_filter .swiper .swiper-button-prev{
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    z-index: 100;
+   }
+   .proSwiper_filter .swiper-button-disabled
+   {
+    background-color: transparent !important;
+    color: var(--color-primary)!important;
+    border: 1px solid var(--color-primary);
+   }
+   .proSwiper_filter .swiper-button-next{
+       background-color: var(--color-primary);
+       border-radius: 50%;
+       height: 30px;
+       width: 30px;
+       color: #fff;
+       z-index: 100;
+   }
+   .proSwiper_filter .swiper-button-next:after,  .proSwiper_filter  .swiper-button-prev:after {
+    font-size: 20px;
+   }
+
+   /*#############MEDIA QUIRES (MEDIUM DEVICES)###############*/
+@media screen and (max-width: 992px){
+    .list_filter{
+        border: 1px solid black;
+        border-radius: 10px;
+        display: flex;
+        width: 80% !important;
+        margin:  auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    justify-content: space-between;
+    }
+    .list_mflex{
+        display: flex;
+        gap: 10px;
+    }
+    .list_filter .title{
+        background-color: var(--color-primary);
+        font-size: 18px;
+        color: #fff;
+        width: 100%;
+        width: 150px;
+        border-radius: 10px;
+        height: 70px;
+    padding: 2px;
+    margin-right: 47px;
+    }
+    .list_filter .title h3{
+        font-size: 15px;
+    }
+    .list_filter span{
+        cursor: pointer;
+        margin-right: 5px;
+    }
+
+
+    .pro_fcol{
+        margin: 20px auto;
+    } 
+}
+
+/*#############MEDIA QUIRES (SMALL DEVICES)###############*/
+@media screen and (max-width: 768px){
+
+    .list_filter{
+        border: 1px solid black;
+        border-radius: 10px;
+        display: flex;
+        width: 80% !important;
+        margin:  auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .list_mflex{
+        gap: 3px;
+    }
+    .list_filter .title{
+        background-color: var(--color-primary);
+        font-size: 18px;
+        color: #fff;
+        width: 100%;
+        width: 150px;
+        border-radius: 10px;
+        height: 70px;
+    padding: 2px;
+    margin-right: 47px;
+    }
+    .list_filter .title h3{
+        font-size: 15px;
+    }
+    .list_filter span{
+        cursor: pointer;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+
+
+    .pro_fcol{
+        margin: 20px auto;
+    } 
+    .product-card_f  h3{
+        font-size: 10px;
+        text-align: center;
+    font-weight: 400;
+    }
+    .product-card_f  .sizes,
+    .product-card_f  .star_rating{
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        margin:10px 10px 5px 0px;
+        
+    }
+    .product-card_f .rc-rate-star{
+        font-size: 7px;
+        margin-right: 5px !important;
+    }
+    .product-card_f  .sizes{
+        margin-right:20px;
+    }
+    .product-card_f  .sizes button{
+        padding: 1px 3px;
+            font-size: 7px;
+    }
+    .product-card_f  .price{
+        font-size: 10px;
+        margin-left: 0px !important;
+    }
+}

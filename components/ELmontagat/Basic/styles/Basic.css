@@ -50,7 +50,7 @@
 .secright .sec1 {
   display: flex;
   margin-left: 250px;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 .secright .sec2 input {
   width: 100%;
@@ -85,7 +85,7 @@
   list-style: none;
   text-align: center;
   padding: 0;
-  margin-top: 10px;
+  margin-top: 0px;
   display: flex;
   justify-content: flex-end;
 }
@@ -136,34 +136,37 @@
   font-weight: 400;
 }
 
-.main2 .rate {
+.parentmain {
+  display: flex;
+}
+.parentmain .main2 .rate {
   margin-left: 110px;
 }
-.main2 .product-name {
+.parentmain .main2 .product-name {
   font-weight: 500;
   font-size: 15px;
   color: gray;
   align-items: end;
 }
-.main2 .product {
-  margin-top: 50px;
+.parentmain .main2 .product {
+  margin-top: 60px;
   text-align: right;
 }
-.main2 .sizesbtns {
+.parentmain .main2 .sizesbtns {
   padding: 20px;
   align-items: end;
   text-align: right;
 }
-.main2 button {
+.parentmain .main2 button {
   padding: 5px;
   margin-left: 3px;
   outline: none;
 }
-.main2 button:hover {
+.parentmain .main2 button:hover {
   background-color: aqua;
   color: #eee;
 }
-.main2 .buttons {
+.parentmain .main2 .buttons {
   position: absolute;
   top: 0;
   left: 0;

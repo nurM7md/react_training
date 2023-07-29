@@ -57,7 +57,7 @@
     .sec1{
       display: flex;
       margin-left: 250px;
-      margin-top: 50px;
+      margin-top: 0px;
     }    
     .sec2{
       input{
@@ -97,7 +97,7 @@
     list-style: none;
   text-align: center;
   padding: 0;
-  margin-top: 10px;
+  margin-top: 0px;
   display: flex;
   justify-content: flex-end;
   
@@ -152,51 +152,54 @@
 
 }
 
-.main2{
-  .rate{
-    margin-left: 110px;
-  }
-  .product-name{
-    font-weight: 500;
-    font-size: 15px;
-    color: gray;
-    align-items: end;
-  }
-  .product{
-    margin-top: 50px;
-    text-align: right;
-  }
-  
-  .sizesbtns{
-    padding: 20px;
-    align-items: end;
-    text-align: right;
-    
-  }
-  button{
-    padding: 5px;
-    margin-left: 3px;
-    outline: none;
-    &:hover{
-      background-color: aqua;
-      color: #eee;
+.parentmain{
+  display: flex;
+  .main2{
+    .rate{
+      margin-left: 110px;
     }
+    .product-name{
+      font-weight: 500;
+      font-size: 15px;
+      color: gray;
+      align-items: end;
+    }
+    .product{
+      margin-top: 60px;
+      text-align: right;
+    }
+    
+    .sizesbtns{
+      padding: 20px;
+      align-items: end;
+      text-align: right;
+      
+    }
+    button{
+      padding: 5px;
+      margin-left: 3px;
+      outline: none;
+      &:hover{
+        background-color: aqua;
+        color: #eee;
+      }
+    }
+  
+    .buttons {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: opacity 0.5s;
+      opacity: 0;
+      width: 100%;
+      height: 57%;
+      background-color: rgba(0, 0, 0, 0.2666666667);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+  
   }
-
-  .buttons {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: opacity 0.5s;
-    opacity: 0;
-    width: 100%;
-    height: 57%;
-    background-color: rgba(0, 0, 0, 0.2666666667);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-  }
-
 }

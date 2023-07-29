@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    width: 100%;
+}
+.pro_hero{
+    margin-top: 30px;
+}
+.hero_back{
+/*background-image: url(../../assets/Untitled\ design\ \(5\)\ 1.png);*/
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 
+250px;
+padding: 20px;
+}
+.hero_text h3{
+    color: #fff;
+font-size: 48px;
+font-weight: 900;
+text-align: center;
+margin: 50px 10px 10px -70px;
+}
+.hero_text p{
+    color: #fff;
+    font-size: 24px;
+font-style: normal;
+font-weight: 500;
+text-align: center;
+margin-right: 50px;
+}
+.hero_text {
+    height: auto !important;
+}
+.hero_text span{
+    color: #EB0E0E;
+}
+.pro_details {
+    margin: 50px 0;
+}
+.pro_details  img{
+    max-width: 100%;
+} 
+.pro_details .details_left {
+    max-width: 100% !important;
+    text-align: right;
+}
+.pro_details .details_left h3{
+    text-align: right;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+}
+.pro_details .details_left .price{
+    color: rgba(0, 0, 0, 0.70);
+/* font-family: Tajawal; */
+font-size: 24px;
+font-weight: 400;
+margin-top: 10px;
+}
+.pro_details .details_left .star_rating{
+    margin: 10px 0 20px;
+} 
+.pro_details .details_left .p_single{
+    color: rgba(0, 0, 0, 0.70);
+text-align: right;
+/* font-family: Tajawal; */
+font-size: 24px;
+font-weight: 400;
+}
+.pro_details .details_left .colors {
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+.pro_details .details_left .colors span{
+    width: 30px ;
+    height: 30px;
+    border-radius: 50%;
+    border-radius: 32px;
+border: 1px solid rgba(0, 0, 0, 0.50);
+text-align: center;
+}
+.pro_details .details_left .colors img{
+width: 22px;
+border-radius: 50%;
+
+}
+.pro_details .details_left .weight{
+    justify-content: flex-end;
+}
+.pro_details .details_left .weight span{
+    padding: 2px 4px;
+    border-radius: 6px;
+border: 1px solid rgba(0, 0, 0, 0.50);
+} 
+.pro_details .details_left .options_details{
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+.pro_details .details_left .options_details button{
+    color: #fff;
+ border-radius: 5.087px;
+background: var(--primary, #7FD3DF);
+border: none;
+padding: 4px 8px;
+}
+.pro_details .details_left .options_details .neg{
+    cursor: pointer;
+    text-align: center;
+    width: 39.506px;
+height: 31.149px;
+    border-radius: 25.071px 0px 0px 25.071px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: rgba(217, 217, 217, 0.50);
+}
+.pro_details .details_left .options_details .plus{
+    cursor: pointer;
+    text-align: center;
+    width: 39.506px;
+    width: 39.506px;
+height: 31.149px;
+    border-radius: 0px 25.071px 25.071px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: rgba(217, 217, 217, 0.50);
+}
+.pro_details .details_left .options_details .num{
+    margin: auto;
+}
+.pro_details .details_left .bay_btn{
+ width: 100%;
+ padding: 10px 10px;
+    border-radius: 6px;
+    background: var(--primary, #7FD3DF);
+    color: #fff;
+    border: none;
+}
+.pro_details .details_left{
+    width: 100% ;
+}
+.pro_details .details_left .social{
+    margin: 20px 0px 20px;
+}
+.pro_details .details_left .social p{
+    color: #000;
+text-align: right;
+/* font-family: Tajawal; */
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+}
+
+.pro_details .details_left .social .social_icon img{
+    width: 34.108px;
+height: 35.326px;
+margin-right: 10px;
+}
+.pro_details .details_right{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.pro_details .details_right .g_img{
+  width: 90%;
+  margin: 0px auto 20px;
+  max-width: 100%;
+  height: 80%;
+}
+.pro_details .details_right .image_details{
+  margin: auto;
+}
+.pro_details .details_right .image_details img{
+    width: 70px;
+    height: 80px;
+}
+.description {
+    margin: 100px 0;
+}
+.description ul li a{
+    color:#000;
+    cursor: pointer;
+    text-decoration: none;
+}
+.des_product{
+    margin-top: 50px;
+}
+.des_product .des_left , 
+.des_product .des_right{
+    width: 100%;
+    text-align: right;
+}
+
+.des_product .des_left .add{
+    color: rgba(0, 0, 0, 0.70);
+/* font-family: Tajawal; */
+font-size: 24px;
+font-weight: 500;
+}
+.des_product .des_left .voice{
+    color: rgba(0, 0, 0, 0.70);
+/* font-family: Tajawal; */
+font-size: 20px;
+font-weight: 500;
+}
+.des_product .des_left form{
+    margin-top: 50px;
+}
+.des_product .des_left form input:nth-child(1){
+    border-radius: 24px;
+border: 1px solid rgba(0, 0, 0, 0.20);
+width: 100%;
+padding: 5px 20px;
+text-align: right;
+margin-bottom: 20px;
+outline: none;
+}
+.des_product .des_left form textarea{
+    padding: 20px 40px ;
+    height: 227px;
+    border-radius: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    width: 100%;
+    outline: none;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.des_product .des_left form input:nth-child(5){
+    width: 45%;
+    text-align: right;
+    padding: 5px 10px;
+    border-radius: 24px;
+border: 1px solid rgba(0, 0, 0, 0.20);
+outline: none;
+}
+.des_product .des_left form input:nth-child(6){
+    outline: none;
+    border-radius: 24px;
+border: 1px solid rgba(0, 0, 0, 0.20);
+padding: 5px 10px;
+text-align:right;
+margin-left: 50px;
+}
+.des_product .des_left form button{
+    border-radius: 45px;
+background: var(--primary, #7FD3DF);
+color: #fff;
+padding: 10px 37px;
+border: none;
+outline: none;
+text-align: center !important;
+margin-top: 20px;
+}
+.des_product .des_right .g_comment h3{
+    color: rgba(0, 0, 0, 0.70);
+    /* font-family: Tajawal; */
+    font-size: 24px;
+    font-weight: 500;
+}
+.des_product .des_right .g_comment p{
+    color: rgba(0, 0, 0, 0.40);
+text-align: right;
+/* font-family: Tajawal; */
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 20px;
+}
+.des_product .des_right .g_comment img{
+    width: 113px;
+    height: 108px;
+}
+.des_product .des_right .g_comment .name{
+    color: rgba(0, 0, 0, 0.70);
+    text-align: right;
+    /* font-family: Tajawal; */
+    font-size: 20px;
+    font-weight: 400;
+}
+.des_product .des_right .g_comment .date{
+    color: rgba(0, 0, 0, 0.40);
+    text-align: right;
+    /* font-family: Tajawal; */
+    font-size: 20px;
+    font-weight: 400;
+}

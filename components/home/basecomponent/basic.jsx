@@ -5,6 +5,7 @@ import "./styles/main.css";
 import "./styles/shoppingCart.css";
 import "./../../shared/navbar";
 import ReactStars from "react-rating-stars-component";
+import { Link } from "react-router-dom";
 
 const products = [
   {
@@ -66,19 +67,7 @@ const products = [
 ];
 
 const Basic = () => {
-  const [productsInCart, setProducts] = useState(
-    JSON.parse(localStorage.getItem("shopping-cart")) || []
-  );
-  useEffect(() => {
-    localStorage.setItem("shopping-cart", JSON.stringify(productsInCart));
-  }, [productsInCart]);
-  const addProductToCart = (product) => {
-    const newProduct = {
-      ...product,
-      count: 1,
-    };
-    setProducts([...productsInCart, newProduct]);
-  };
+ 
 
   const ratingChanged = (newRating) => {
     console.log(newRating);
@@ -112,20 +101,22 @@ const Basic = () => {
                   <h6 className="product-price">{product.price}</h6>
                   <h6 className="product-desc">{product.desc}</h6>
                 </div>
-                <h4 className="product-name">{product.name}</h4>
+                <Link to={`/Elmontagat/${product.id}`}>
+                            <h4 className="product-name">{product.name}</h4>
+                          </Link>
               </div>
               <div className="sizesbtns">
-                <button onClick={() => addProductToCart(product)}>XL</button>
-                <button onClick={() => addProductToCart(product)}>L</button>
-                <button onClick={() => addProductToCart(product)}>M</button>
-                <button onClick={() => addProductToCart(product)}>S</button>
-                <button onClick={() => addProductToCart(product)}>XS</button>
+                <button>XL</button>
+                <button >L</button>
+                <button >M</button>
+                <button >S</button>
+                <button >XS</button>
               </div>
 
               <div className="buttons">
                 <button
                   className="btn"
-                  onClick={() => addProductToCart(product)}
+                  
                 >
                   أضف الى العربة
                 </button>

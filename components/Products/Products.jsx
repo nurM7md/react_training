@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Container } from 'react-bootstrap';
-//import Rate from 'rc-rate';
-//import 'rc-rate/assets/index.css';
+import Rate from 'rc-rate';
+import 'rc-rate/assets/index.css';
 //import { FaStar } from 'react-icons/fa';
 import './Products.css';
 import ProductImag from './../../assets/images/boys.png';
@@ -12,6 +12,8 @@ import ProductImag05 from './../../assets/images/boys.png';
 import ProductImag06 from './../../assets/images/boys.png';
 import ProductImag07 from './../../assets/images/boys.png';
 import ProductImag08 from './../../assets/images/boys.png';
+import { Link } from 'react-router-dom';
+
 
 const products = [
   {
@@ -109,7 +111,7 @@ const Products = () => {
                 <div className="star_rating">
                   
                 </div>
-                <h3>{product.name}</h3>
+                <Link  to={`/products/${product.id}`}><h3>{product.name}</h3></Link>
                 <div className="sizes">
                   {['S', 'M', 'L', 'XL', 'XS'].map((size) => (
                     <button

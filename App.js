@@ -7,23 +7,19 @@ import Login from "./components/Login";
 import Errror from "./components/Errror";
 import Basket from "./pages/basket/Basket";
 //import Sign from "./components/Sign";
+import SingleProduct from "./pages/SingleProduct";
 function App() {
-
-  
-
-
-
-
   return (
     <>
       <Router>
         <Routes>
-          <Route path="/" element={<Sign />} />
-          <Route path="/Home" element={<Home />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/Sign" element={<Sign />} />
           <Route path="/login" element={<Login />} />
           <Route path="/Elmontagat" element={<Elmontagat />} />
-          <Route path="*" element={<Errror />} />
+          <Route path='/Elmontagat/:id' element={<SingleProduct/>}/>
           <Route path="/basket" element={<Basket />} />
+          <Route path="*" element={<Errror />} />
         </Routes>
       </Router>
     </>

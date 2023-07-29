@@ -130,13 +130,13 @@ function NavBar() {
               <Nav.Link href="/basket" className="links">
                 السلة
               </Nav.Link>
-              <Nav.Link href="/" className="links">
-                sign
+              <Nav.Link href="#" className="links">
+                الخدمات
               </Nav.Link>
               <Nav.Link href="/Elmontagat" className="links">
                 المنتجات
               </Nav.Link>
-              <Nav.Link href="/Home" className="links">
+              <Nav.Link href="/" className="links">
                 الرئيسية
               </Nav.Link>
 
