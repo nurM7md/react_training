@@ -1,0 +1,56 @@
+.login {
+  background-color: whitesmoke;
+  width: 90%;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  height: 650px;
+}
+.login .secright img {
+  width: 650px;
+  height: 650px;
+  margin-left: 50px;
+}
+.login .left_data {
+  text-align: right;
+}
+.login .left_data h2 {
+  font-size: 50px;
+  margin-top: 80px;
+}
+.login .left_data h3 {
+  margin-top: 50px;
+}
+.login .left_data p {
+  color: gray;
+}
+.login #formBasicEmail {
+  width: 650px;
+  text-align: right;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+.login #formBasicPassword {
+  width: 650px;
+  text-align: right;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+.login .submit {
+  background-color: rgb(78, 195, 195);
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.login .submit:hover {
+  background-color: aqua;
+}
+.login .ic {
+  padding-right: 20px;
+  font-size: 70px;
+}
+
+/*# sourceMappingURL=login.css.map */

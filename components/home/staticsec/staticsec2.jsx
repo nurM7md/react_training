@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./style/staticsec2.css";
 import boysimg from './../../../assets/images/boys.png'
 import girlsimg from './../../../assets/images/girls.png'

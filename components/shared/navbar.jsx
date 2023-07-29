@@ -11,12 +11,14 @@ import "./../shared/navbar.css";
 import { Modal, ModalHeader, ModalBody } from "reactstrap";
 import ShoppingCart from "./../home/basecomponent/ShoppingCart";
 import "./../home/basecomponent/styles/shoppingCart.css";
+import Signoptions from "../home/basecomponent/signoptions";
 
 function NavBar() {
   const [modal, setmodal] = useState(false);
 
 
   const [cartsVisibilty, setCartVisible] = useState(false);
+  const [signVisibilty, setSignVisible] = useState(false);
   const [productsInCart, setProducts] = useState(
     JSON.parse(localStorage.getItem("shopping-cart")) || []
   );
@@ -98,7 +100,15 @@ function NavBar() {
                 <AiOutlineHeart />
               </div>
               <div id="i3">
-                <BsPerson />
+                <Signoptions
+                visibilty={signVisibilty}
+                onClose={() => setSignVisible(false)}
+                 />
+                <div>
+                
+                <BsPerson onClick={() => setSignVisible(true)} />
+               
+                </div>
               </div>
               <div id="i4" onClick={() => setmodal(true)}>
                 <BsSearch />
@@ -117,16 +127,16 @@ function NavBar() {
               <Nav.Link href="#" className="links">
                 الشروط و الاحكام
               </Nav.Link>
-              <Nav.Link href="#" className="links">
-                نبذة عنا
+              <Nav.Link href="/basket" className="links">
+                السلة
               </Nav.Link>
-              <Nav.Link href="#" className="links">
-                الخدمات
+              <Nav.Link href="/" className="links">
+                sign
               </Nav.Link>
-              <Nav.Link href="#" className="links">
+              <Nav.Link href="/Elmontagat" className="links">
                 المنتجات
               </Nav.Link>
-              <Nav.Link href="#" className="links">
+              <Nav.Link href="/Home" className="links">
                 الرئيسية
               </Nav.Link>
 

@@ -1,0 +1,54 @@
+.main3{
+    
+    .products{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    .product{
+        margin-top: 100px;
+        height: 600px;
+    }
+
+    .rate{
+        margin-left: 200px;
+      }
+      .product-name{
+        font-weight: 600;
+        font-size: 20px;
+        color: gray;
+        
+      }
+
+    .sizesbtns{
+        padding: 5px;
+        align-items: end;
+        text-align: right;
+        
+      }
+      button{
+        padding: 5px;
+        margin-left: 3px;
+        outline: none;
+        &:hover{
+          background-color: aqua;
+          color: #eee;
+        }
+      }
+    
+      .buttons {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: opacity 0.5s;
+        opacity: 0;
+        width: 100%;
+        height: 70%;
+        background-color: rgba(0, 0, 0, 0.2666666667);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+}

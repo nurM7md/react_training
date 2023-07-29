@@ -1,0 +1,175 @@
+.parent {
+  display: flex;
+}
+.parent .leftside {
+  display: flex;
+  width: 568px;
+  height: 900px;
+  margin-top: 60px;
+  margin-left: 50px;
+  margin-bottom: 100px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 23px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 1px 11px 54px 0px rgba(0, 0, 0, 0.25);
+}
+.parent .leftside h2 {
+  margin-top: 40px;
+  margin-right: 40px;
+}
+.parent .leftside p {
+  color: gray;
+  margin-right: 40px;
+}
+.parent .leftside .btns1 button {
+  color: gray;
+  background-color: transparent;
+  border-color: gray;
+  border-radius: 5px;
+  padding: 10px 40px;
+  margin-right: 40px;
+  font-weight: 300;
+  outline: none;
+}
+.parent .leftside .btns1 button:active {
+  background-color: rgb(109, 186, 186);
+  color: white;
+  border: none;
+}
+.parent .leftside h3 {
+  margin-top: 10px;
+  margin-right: 40px;
+}
+.parent .leftside textarea {
+  border-radius: 10px;
+  margin: auto;
+  align-items: end;
+  text-align: right;
+}
+.parent .leftside h6 {
+  margin-right: 40px;
+}
+.parent .leftside .btns2 button {
+  color: gray;
+  background-color: aqua;
+  border:none;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 40px;
+  font-weight: 500;
+  outline: none;
+  margin-bottom: 30px;
+}
+.parent .leftside .btns2 button:active {
+  background-color: rgb(109, 186, 186);
+  color: white;
+  border: none;
+}
+.parent .leftside .btns2 #btn1 {
+  margin-right: 200px;
+}
+.parent .leftside .btns2 #btn2 {
+  margin-right: 40px;
+}
+.parent .rightside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 6px;
+  margin-bottom: 700px;
+  margin-left: 100px;
+}
+.parent .rightside h1 {
+  color: #000;
+  text-align: center;
+  font-family: Tajawal;
+  font-size: 34.698px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.parent .rightside .titles {
+  display: flex;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.parent .rightside .titles h2 {
+  margin-right: 130px;
+}
+.parent * {
+  margin: 0;
+  padding: 0;
+}
+.parent article {
+  width: 100%;
+  margin-top: 50px;
+}
+.parent .cart_box img {
+  width: 50px;
+  height: 50px;
+}
+.parent .cart_img {
+  display: flex;
+  width: 400px;
+}
+.parent .cart_img p {
+  font-weight: bold;
+  margin-left: 10px;
+}
+.parent .cart_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-bottom: 2px solid skyblue;
+  padding-bottom: 5px;
+}
+.parent .cart_box .btnsnum {
+  margin-left: 240px;
+}
+.parent .cart_box .btnsnum button {
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+.parent .cart_box div:nth-child(3) button {
+  padding: 5px 10px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  border: none;
+  outline: none;
+  color: rgb(105, 222, 222);
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 30px;
+}
+.parent .cart_box span {
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 55px;
+}
+.parent .total {
+  display: flex;
+  justify-content: space-between;
+}
+.parent .total span:nth-child(1) {
+  font-size: 2rem;
+  color: skyblue;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.parent .total span:nth-child(2) {
+  font-size: 2rem;
+  color: green;
+  font-weight: bold;
+}
+.parent .prodimg {
+  display: flex;
+}
+
+/*# sourceMappingURL=cart.css.map */

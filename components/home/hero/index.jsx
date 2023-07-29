@@ -28,8 +28,9 @@ const Hero = () => {
       >
         <SwiperSlide>
           <div className="main">
-            <div>
-              <img src={mainphoto} title="mainphoto" alt="something wrong" />
+            <div className="hero_image">
+              
+            <img src={mainphoto} title="mainphoto" alt="something wrong" />
             </div>
             <div className="submain">
               <h4>براندات نسائي عالمية</h4>

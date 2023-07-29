@@ -1,0 +1,57 @@
+.signup {
+  background-color: whitesmoke;
+  width: 90%;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+.signup .secright img {
+  width: 100%;
+  height: 100%;
+  margin-left: 50px;
+}
+.signup .left_data {
+  text-align: right;
+}
+.signup .left_data h2 {
+  font-size: 50px;
+}
+.signup .left_data h3 {
+  margin-top: 50px;
+}
+.signup .left_data p {
+  color: gray;
+}
+.signup .form {
+  width: 100%;
+}
+.signup #formBasicEmail {
+  width: 500px;
+  text-align: right;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+.signup #formBasicPassword {
+  width: 500px;
+  text-align: right;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+.signup .submit {
+  background-color: rgb(78, 195, 195);
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.signup .submit:hover {
+  background-color: aqua;
+}
+.signup .icon {
+  padding-right: 20px;
+  font-size: 70px;
+}
+
+/*# sourceMappingURL=sign.css.map */

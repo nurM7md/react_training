@@ -20,14 +20,27 @@
     object-fit: cover;
   }
 .swiper-button-next{
-    top: 550px;
+    top: 540px;
     right: 600px;
+    background-color: rgb(105, 203, 203);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
 }
 .swiper-button-prev{
-    top: 550px;
+    top: 540px;
     left: 600px;
-
+    background-color: rgb(105, 203, 203);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    
 }
+
+
+
 
 
 
