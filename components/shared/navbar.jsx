@@ -12,39 +12,17 @@ import { Modal, ModalHeader, ModalBody } from "reactstrap";
 import ShoppingCart from "./../home/basecomponent/ShoppingCart";
 import "./../home/basecomponent/styles/shoppingCart.css";
 import Signoptions from "../home/basecomponent/signoptions";
+import { useSelector } from "react-redux";
 
 function NavBar() {
   const [modal, setmodal] = useState(false);
-
+  const totalQuantity = useSelector((state) => state.cart.totalQuantity);
 
   const [cartsVisibilty, setCartVisible] = useState(false);
   const [signVisibilty, setSignVisible] = useState(false);
   const [productsInCart, setProducts] = useState(
     JSON.parse(localStorage.getItem("shopping-cart")) || []
   );
-    
-  
-    const onQuantityChange = (productId, count) => {
-      setProducts((oldState) => {
-        const productsIndex = oldState.findIndex((item) => item.id === productId);
-        if (productsIndex !== -1) {
-          oldState[productsIndex].count = count;
-        }
-        return [...oldState];
-      });
-    };
-  
-    const onProductRemove = (product) => {
-      setProducts((oldState) => {
-        const productsIndex = oldState.findIndex(
-          (item) => item.id === product.id
-        );
-        if (productsIndex !== -1) {
-          oldState.splice(productsIndex, 1);
-        }
-        return [...oldState];
-      });
-    };
 
   return (
     <Fragment>
@@ -72,26 +50,14 @@ function NavBar() {
         <Container>
           <Navbar.Brand href="#home">
             <div className="icons">
-              
-            <div className="App">
-                <ShoppingCart
-                  visibilty={cartsVisibilty}
-                  products={productsInCart}
-                  onClose={() => setCartVisible(false)}
-                  onQuantityChange={onQuantityChange}
-                  onProductRemove={onProductRemove}
-                />
+              <div className="App">
                 <div className="navbar">
-                  <button
-                    className="btn shopping-cart-btn"
-                    onClick={() => setCartVisible(true)}
-                  >
+                  <button className="btn shopping-cart-btn">
                     <FiShoppingCart size={24} />
-                    {productsInCart.length > 0 && (
-                      <span className="product-count">
-                        {productsInCart.length}
-                      </span>
-                    )}
+
+                    <span className="product-count">
+                      {totalQuantity}
+                    </span>
                   </button>
                 </div>
               </div>
@@ -101,13 +67,11 @@ function NavBar() {
               </div>
               <div id="i3">
                 <Signoptions
-                visibilty={signVisibilty}
-                onClose={() => setSignVisible(false)}
-                 />
+                  visibilty={signVisibilty}
+                  onClose={() => setSignVisible(false)}
+                />
                 <div>
-                
-                <BsPerson onClick={() => setSignVisible(true)} />
-               
+                  <BsPerson onClick={() => setSignVisible(true)} />
                 </div>
               </div>
               <div id="i4" onClick={() => setmodal(true)}>
@@ -147,6 +111,5 @@ function NavBar() {
       </Navbar>
     </Fragment>
   );
-
-  }
+}
 export default NavBar;
